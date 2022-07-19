@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4AE22617609FE97A4BE38BAF /* Pods_FindCVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246EADEAEB3690F091538C3E /* Pods_FindCVS.framework */; };
+		74E22F16E4A777359D4F2CCD /* Pods_FindCVSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA489FBE0D61472D37FF6CA /* Pods_FindCVSTests.framework */; };
+		D83200EB2886B8D200A19A46 /* LocalNetworkStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83200EA2886B8D200A19A46 /* LocalNetworkStub.swift */; };
 		D835ED6C28810749007C8C7A /* LocalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835ED6B28810749007C8C7A /* LocalAPI.swift */; };
 		D835ED6F28810893007C8C7A /* LocalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835ED6E28810893007C8C7A /* LocalNetwork.swift */; };
 		D835ED7128810A91007C8C7A /* LocationInfomationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835ED7028810A91007C8C7A /* LocationInfomationModel.swift */; };
@@ -61,10 +63,27 @@
 		D8B38B192880048000E02D38 /* LocationInfomationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B38B182880048000E02D38 /* LocationInfomationViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D83200E52886B89400A19A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B38A9A287FFCF600E02D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B38AA1287FFCF600E02D38;
+			remoteInfo = FindCVS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1B477226B7AE8D9BB06113DB /* Pods-FindCVS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS.debug.xcconfig"; path = "Target Support Files/Pods-FindCVS/Pods-FindCVS.debug.xcconfig"; sourceTree = "<group>"; };
+		1DA489FBE0D61472D37FF6CA /* Pods_FindCVSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		246EADEAEB3690F091538C3E /* Pods_FindCVS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		280465BDA4D7A7634DCC8E83 /* Pods-FindCVSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVSTests.release.xcconfig"; path = "Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests.release.xcconfig"; sourceTree = "<group>"; };
 		AFDB9B9D99256629A296F5E0 /* Pods-FindCVS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS.release.xcconfig"; path = "Target Support Files/Pods-FindCVS/Pods-FindCVS.release.xcconfig"; sourceTree = "<group>"; };
+		B37B9B05329429F9F8CA2434 /* Pods-FindCVSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVSTests.debug.xcconfig"; path = "Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B49CE88237706F81F4D87325 /* Pods-FindCVS-FindCVSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS-FindCVSTests.release.xcconfig"; path = "Target Support Files/Pods-FindCVS-FindCVSTests/Pods-FindCVS-FindCVSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEFAA0316B99305C2C88D337 /* Pods-FindCVS-FindCVSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS-FindCVSTests.debug.xcconfig"; path = "Target Support Files/Pods-FindCVS-FindCVSTests/Pods-FindCVS-FindCVSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D83200E12886B89400A19A46 /* FindCVSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCVSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83200EA2886B8D200A19A46 /* LocalNetworkStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetworkStub.swift; sourceTree = "<group>"; };
 		D835ED6B28810749007C8C7A /* LocalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAPI.swift; sourceTree = "<group>"; };
 		D835ED6E28810893007C8C7A /* LocalNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetwork.swift; sourceTree = "<group>"; };
 		D835ED7028810A91007C8C7A /* LocationInfomationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfomationModel.swift; sourceTree = "<group>"; };
@@ -130,6 +149,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D83200DE2886B89400A19A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E22F16E4A777359D4F2CCD /* Pods_FindCVSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8B38A9F287FFCF600E02D38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,8 +181,20 @@
 			children = (
 				1B477226B7AE8D9BB06113DB /* Pods-FindCVS.debug.xcconfig */,
 				AFDB9B9D99256629A296F5E0 /* Pods-FindCVS.release.xcconfig */,
+				BEFAA0316B99305C2C88D337 /* Pods-FindCVS-FindCVSTests.debug.xcconfig */,
+				B49CE88237706F81F4D87325 /* Pods-FindCVS-FindCVSTests.release.xcconfig */,
+				B37B9B05329429F9F8CA2434 /* Pods-FindCVSTests.debug.xcconfig */,
+				280465BDA4D7A7634DCC8E83 /* Pods-FindCVSTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D83200E22886B89400A19A46 /* FindCVSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D83200EA2886B8D200A19A46 /* LocalNetworkStub.swift */,
+			);
+			path = FindCVSTests;
 			sourceTree = "<group>";
 		};
 		D835ED6D2881087F007C8C7A /* Network */ = {
@@ -180,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				D8B38AA4287FFCF600E02D38 /* FindCVS */,
+				D83200E22886B89400A19A46 /* FindCVSTests */,
 				D8B38AA3287FFCF600E02D38 /* Products */,
 				D8B38ABB287FFE4F00E02D38 /* Frameworks */,
 				C60E60812B02F530D3107389 /* Pods */,
@@ -190,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				D8B38AA2287FFCF600E02D38 /* FindCVS.app */,
+				D83200E12886B89400A19A46 /* FindCVSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,6 +263,7 @@
 				D8B38ABE287FFE7D00E02D38 /* DaumMap.embeddedframework */,
 				D8B38ABC287FFE4F00E02D38 /* QuartzCore.framework */,
 				246EADEAEB3690F091538C3E /* Pods_FindCVS.framework */,
+				1DA489FBE0D61472D37FF6CA /* Pods_FindCVSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -311,6 +353,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D83200E02886B89400A19A46 /* FindCVSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83200E72886B89400A19A46 /* Build configuration list for PBXNativeTarget "FindCVSTests" */;
+			buildPhases = (
+				2640626ED8E653D9DE11BB4D /* [CP] Check Pods Manifest.lock */,
+				D83200DD2886B89400A19A46 /* Sources */,
+				D83200DE2886B89400A19A46 /* Frameworks */,
+				D83200DF2886B89400A19A46 /* Resources */,
+				905BF5CC56508CE1C377351B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D83200E62886B89400A19A46 /* PBXTargetDependency */,
+			);
+			name = FindCVSTests;
+			productName = FindCVSTests;
+			productReference = D83200E12886B89400A19A46 /* FindCVSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D8B38AA1287FFCF600E02D38 /* FindCVS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8B38AB6287FFCF800E02D38 /* Build configuration list for PBXNativeTarget "FindCVS" */;
@@ -340,6 +402,11 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					D83200E02886B89400A19A46 = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+						TestTargetID = D8B38AA1287FFCF600E02D38;
+					};
 					D8B38AA1287FFCF600E02D38 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -359,11 +426,19 @@
 			projectRoot = "";
 			targets = (
 				D8B38AA1287FFCF600E02D38 /* FindCVS */,
+				D83200E02886B89400A19A46 /* FindCVSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D83200DF2886B89400A19A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8B38AA0287FFCF600E02D38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,6 +478,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2640626ED8E653D9DE11BB4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindCVSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2AF57123701FEA9807BF1DC7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,9 +539,34 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindCVS/Pods-FindCVS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		905BF5CC56508CE1C377351B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D83200DD2886B89400A19A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83200EB2886B8D200A19A46 /* LocalNetworkStub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8B38A9E287FFCF600E02D38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,6 +590,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D83200E62886B89400A19A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8B38AA1287FFCF600E02D38 /* FindCVS */;
+			targetProxy = D83200E52886B89400A19A46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D8B38AB0287FFCF800E02D38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -480,6 +610,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D83200E82886B89400A19A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37B9B05329429F9F8CA2434 /* Pods-FindCVSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moit.FindCVSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCVS.app/FindCVS";
+			};
+			name = Debug;
+		};
+		D83200E92886B89400A19A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280465BDA4D7A7634DCC8E83 /* Pods-FindCVSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moit.FindCVSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCVS.app/FindCVS";
+			};
+			name = Release;
+		};
 		D8B38AB4287FFCF800E02D38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -671,6 +852,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D83200E72886B89400A19A46 /* Build configuration list for PBXNativeTarget "FindCVSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83200E82886B89400A19A46 /* Debug */,
+				D83200E92886B89400A19A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D8B38A9D287FFCF600E02D38 /* Build configuration list for PBXProject "FindCVS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
