@@ -1,5 +1,5 @@
 //
-//  LocationInfomationViewModel.swift
+//  LocationInformationViewModel.swift
 //  FindCVS
 //
 //  Created by HwangByungJo  on 2022/07/14.
@@ -9,7 +9,7 @@ import Foundation
 import RxCocoa
 import RxSwift
 
-struct LocationInfomationViewModel {
+struct LocationInformationViewModel {
   
   let disposeBag = DisposeBag()
   
@@ -35,7 +35,7 @@ struct LocationInfomationViewModel {
   
   private let documentData = PublishSubject<[KLDocument]>()
   
-  init(model: LocationInfomationModel = LocationInfomationModel()) {
+  init(model: LocationInformationModel = LocationInformationModel()) {
     
     // MARK: - 네트워크 통신으로 데이터 불러오기
     

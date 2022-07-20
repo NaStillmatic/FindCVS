@@ -1,5 +1,5 @@
 //
-//  LocationInfomationModel.swift
+//  LocationInformationModel.swift
 //  FindCVS
 //
 //  Created by HwangByungJo  on 2022/07/15.
@@ -8,7 +8,7 @@
 import Foundation
 import RxSwift
 
-struct LocationInfomationModel {
+struct LocationInformationModel {
   var localNetwork: LocalNetwork
   
   init(localNetwork: LocalNetwork = LocalNetwork()) {

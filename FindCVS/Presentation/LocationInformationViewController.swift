@@ -1,5 +1,5 @@
 //
-//  LocationInfomationViewController.swift
+//  LocationInformationViewController.swift
 //  FindCVS
 //
 //  Created by HwangByungJo  on 2022/07/14.
@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 import SnapKit
 
-class LocationInfomationViewController: UIViewController {
+class LocationInformationViewController: UIViewController {
   
   let disposeBag = DisposeBag()
   
@@ -20,7 +20,7 @@ class LocationInfomationViewController: UIViewController {
   let currentLocationButton = UIButton()
   let detailList = UITableView()
   let detailListBackgroundView = DetailListBackgroundView()
-  let viewModel = LocationInfomationViewModel()
+  let viewModel = LocationInformationViewModel()
   
   
   override func viewDidLoad() {
@@ -35,7 +35,7 @@ class LocationInfomationViewController: UIViewController {
     
   }
   
-  private func bind(_ viewModel: LocationInfomationViewModel) {
+  private func bind(_ viewModel: LocationInformationViewModel) {
     
     detailListBackgroundView.bind(viewModel.detailListBackgroundViewModel)
     
@@ -113,7 +113,7 @@ class LocationInfomationViewController: UIViewController {
   }
 }
 
-extension LocationInfomationViewController: CLLocationManagerDelegate {
+extension LocationInformationViewController: CLLocationManagerDelegate {
   
   func locationManager(_ manager: CLLocationManager,
                        didChangeAuthorization status: CLAuthorizationStatus) {
@@ -129,7 +129,7 @@ extension LocationInfomationViewController: CLLocationManagerDelegate {
   }
 }
 
-extension LocationInfomationViewController: MTMapViewDelegate {
+extension LocationInformationViewController: MTMapViewDelegate {
   
   func mapView(_ mapView: MTMapView!,
                updateCurrentLocation location: MTMapPoint!,
@@ -163,7 +163,7 @@ extension Reactive where Base: MTMapView {
   }
 }
 
-extension Reactive where Base: LocationInfomationViewController {
+extension Reactive where Base: LocationInformationViewController {
   var presentAlert: Binder<String> {
     return Binder(base) { base, message in
       let alertViewController = UIAlertController(title: "문제가 발생했어요",
